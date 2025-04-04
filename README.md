@@ -4,6 +4,11 @@ This repo shows the comparison between our implementation of Linear Attention (L
 ![alt text](images/memory.png)\
 
 # Recreate The Results
+You can either use the `run_profiling.sh` file using 
+```
+sbatch run_profiling.sh
+```
+or follow the steo by step guide below:\
 Install GLA
 ```
 pip install -U git+https://github.com/sustcsonglin/flash-linear-attention

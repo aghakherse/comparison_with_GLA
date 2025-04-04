@@ -1,0 +1,2 @@
+# comparison_with_GLU
+This repo shows the comparison between our implementation of Linear Attention (LA) with causal with Gated Linear Attention ([GLU](https://github.com/berlino/gated_linear_attention/tree/main)). We plots demonstrate the time and memory consumption of a single attention layer with batch size of 4, number of heads 16, dimension per head 128, and token length $[1e^3, 1e^5]$. Our implementation is faster by an order of magnitude and has $3.6\times$ less memory consumption. To reproduce the results, follow the steps below.
